@@ -1,0 +1,723 @@
+fileFormatVersion: 2
+guid: 197c772f7d220b648a74d2a74e1cc184
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4103200478197160994
+    second: Flappy_Terminator_0
+  - first:
+      213: 5572426246389743991
+    second: Flappy_Terminator_1
+  - first:
+      213: -931876028417628361
+    second: Flappy_Terminator_2
+  - first:
+      213: 1692372227618842030
+    second: Flappy_Terminator_3
+  - first:
+      213: 2536114015082625030
+    second: Flappy_Terminator_4
+  - first:
+      213: 3375718973789912229
+    second: Flappy_Terminator_5
+  - first:
+      213: 7224863692054050073
+    second: Flappy_Terminator_6
+  - first:
+      213: 494787045682297980
+    second: Flappy_Terminator_7
+  - first:
+      213: -8027459339969371159
+    second: Flappy_Terminator_8
+  - first:
+      213: -9054928240229096832
+    second: Flappy_Terminator_9
+  - first:
+      213: 984966671189562505
+    second: Flappy_Terminator_10
+  - first:
+      213: -2736643814328601394
+    second: Flappy_Terminator_11
+  - first:
+      213: 6766945659705010441
+    second: Flappy_Terminator_12
+  - first:
+      213: -5373979599346713751
+    second: Flappy_Terminator_13
+  - first:
+      213: 7615220289827090837
+    second: Flappy_Terminator_14
+  - first:
+      213: -2735175676237811274
+    second: Flappy_Terminator_15
+  - first:
+      213: 2540921282549073965
+    second: Flappy_Terminator_16
+  - first:
+      213: -1968992968926118860
+    second: Flappy_Terminator_17
+  - first:
+      213: -6630690356083228725
+    second: Flappy_Terminator_18
+  - first:
+      213: 4752764341245680906
+    second: Flappy_Terminator_19
+  - first:
+      213: -8768186420473327864
+    second: Flappy_Terminator_20
+  - first:
+      213: -7678828412912195880
+    second: Flappy_Terminator_21
+  - first:
+      213: 6239137776963859744
+    second: Flappy_Terminator_22
+  - first:
+      213: -8324741566008002585
+    second: Flappy_Terminator_23
+  - first:
+      213: 1321153961934041838
+    second: Flappy_Terminator_24
+  - first:
+      213: 4020513365944662781
+    second: Flappy_Terminator_25
+  - first:
+      213: -8948069173441501688
+    second: Flappy_Terminator_26
+  - first:
+      213: -5930154301366965764
+    second: Flappy_Terminator_27
+  - first:
+      213: 6465756658155489165
+    second: Flappy_Terminator_28
+  - first:
+      213: 4520762757198423047
+    second: Flappy_Terminator_29
+  - first:
+      213: 3796062493247723234
+    second: Flappy_Terminator_30
+  - first:
+      213: 2672535378884542029
+    second: Flappy_Terminator_31
+  - first:
+      213: -7738163021011408042
+    second: Flappy_Terminator_32
+  - first:
+      213: 46897506905216781
+    second: Flappy_Terminator_33
+  - first:
+      213: -1664244574139261898
+    second: Flappy_Terminator_34
+  - first:
+      213: 966899478372095254
+    second: Flappy_Terminator_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flappy_Terminator_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 717
+        width: 202
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771cf19a52c355d40800000000000000
+      internalID: 5572426246389743991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 562
+        width: 175
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737277f70bf4113f0800000000000000
+      internalID: -931876028417628361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 717
+        width: 182
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608b3e28246123320800000000000000
+      internalID: 2536114015082625030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 556
+        width: 188
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac3b467586f8de20800000000000000
+      internalID: 3375718973789912229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 690
+        width: 194
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3eb38f24cb89090800000000000000
+      internalID: -8027459339969371159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 833
+        width: 244
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082ed769dbe665280800000000000000
+      internalID: -9054928240229096832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_10
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 719
+        width: 183
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9845ad708fd4bad00800000000000000
+      internalID: 984966671189562505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 586
+        width: 289
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec47c2243fc750ad0800000000000000
+      internalID: -2736643814328601394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_12
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 802
+        width: 335
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909a615893509ed50800000000000000
+      internalID: 6766945659705010441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_15
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 584
+        width: 203
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b17e8bc634ba0ad0800000000000000
+      internalID: -2735175676237811274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 416
+        width: 438
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cbae1b35bbca4e0800000000000000
+      internalID: -1968992968926118860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 449
+        width: 221
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 16, y: 15, z: 12, w: 12}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d9715bcf535f140800000000000000
+      internalID: 4752764341245680906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 296
+        width: 106
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f884b08e4215680800000000000000
+      internalID: -8768186420473327864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 295
+        width: 119
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6213d1e325f6590800000000000000
+      internalID: -7678828412912195880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 447
+        width: 250
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025b6a470ced59650800000000000000
+      internalID: 6239137776963859744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_23
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 295
+        width: 119
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7f92fe6a3987c80800000000000000
+      internalID: -8324741566008002585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_24
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 277
+        width: 451
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2bda2578ea55210800000000000000
+      internalID: 1321153961934041838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_29
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 105
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704a0a096c9fcbe30800000000000000
+      internalID: 4520762757198423047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_30
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 102
+        width: 121
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6d637a9b25ea430800000000000000
+      internalID: 3796062493247723234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 101
+        width: 114
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eb31474c0c61520800000000000000
+      internalID: 2672535378884542029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy_Terminator_35
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 107
+        width: 682
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61511e5e3fd1b6d00800000000000000
+      internalID: 966899478372095254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 250c0cdf7ba2f7d4daf6da2244c1b1c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flappy_Terminator_0: -4103200478197160994
+      Flappy_Terminator_1: 5572426246389743991
+      Flappy_Terminator_10: 984966671189562505
+      Flappy_Terminator_11: -2736643814328601394
+      Flappy_Terminator_12: 6766945659705010441
+      Flappy_Terminator_13: -5373979599346713751
+      Flappy_Terminator_14: 7615220289827090837
+      Flappy_Terminator_15: -2735175676237811274
+      Flappy_Terminator_16: 2540921282549073965
+      Flappy_Terminator_17: -1968992968926118860
+      Flappy_Terminator_18: -6630690356083228725
+      Flappy_Terminator_19: 4752764341245680906
+      Flappy_Terminator_2: -931876028417628361
+      Flappy_Terminator_20: -8768186420473327864
+      Flappy_Terminator_21: -7678828412912195880
+      Flappy_Terminator_22: 6239137776963859744
+      Flappy_Terminator_23: -8324741566008002585
+      Flappy_Terminator_24: 1321153961934041838
+      Flappy_Terminator_25: 4020513365944662781
+      Flappy_Terminator_26: -8948069173441501688
+      Flappy_Terminator_27: -5930154301366965764
+      Flappy_Terminator_28: 6465756658155489165
+      Flappy_Terminator_29: 4520762757198423047
+      Flappy_Terminator_3: 1692372227618842030
+      Flappy_Terminator_30: 3796062493247723234
+      Flappy_Terminator_31: 2672535378884542029
+      Flappy_Terminator_32: -7738163021011408042
+      Flappy_Terminator_33: 46897506905216781
+      Flappy_Terminator_34: -1664244574139261898
+      Flappy_Terminator_35: 966899478372095254
+      Flappy_Terminator_4: 2536114015082625030
+      Flappy_Terminator_5: 3375718973789912229
+      Flappy_Terminator_6: 7224863692054050073
+      Flappy_Terminator_7: 494787045682297980
+      Flappy_Terminator_8: -8027459339969371159
+      Flappy_Terminator_9: -9054928240229096832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
