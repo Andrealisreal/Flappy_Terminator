@@ -1,16 +1,21 @@
+using Assets.Scripts.Players;
+using Assets.Scripts.Players.Bullets;
 using UnityEngine;
 
-public class Game : MonoBehaviour
+namespace Assets.Scripts
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [RequireComponent(typeof(PlayerSpawnerBullet))]
+    public class Game : MonoBehaviour
     {
+        [SerializeField] private Player _player;
         
-    }
+        private PlayerSpawnerBullet _playerSpawnerBullet;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Awake()
+        {
+            _playerSpawnerBullet = GetComponent<PlayerSpawnerBullet>();
+            
+            _player.InitializeSpawner(_playerSpawnerBullet);
+        }
     }
 }

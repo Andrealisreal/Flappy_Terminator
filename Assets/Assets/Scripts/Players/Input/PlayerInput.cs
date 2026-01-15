@@ -19,24 +19,16 @@ namespace Assets.Scripts.Players.Input
             _inputAction.Player.Attack.performed += Attack;
         }
 
-        private void OnEnable()
-        {
+        private void OnEnable() =>
             _inputAction.Enable();
-        }
 
-        private void OnDisable()
-        {
+        private void OnDisable() =>
             _inputAction.Disable();
-        }
 
-        private void Jump(InputAction.CallbackContext context)
-        {
+        private void Jump(InputAction.CallbackContext context) =>
             JumpClicked?.Invoke();
-        }
         
-        private void Attack(InputAction.CallbackContext context)
-        {
+        private void Attack(InputAction.CallbackContext context) =>
             AttackClicked?.Invoke();
-        }
     }
 }

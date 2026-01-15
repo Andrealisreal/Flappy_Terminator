@@ -27,10 +27,8 @@ namespace Assets.Scripts.Players.Movement
             Reset();
         }
 
-        private void Update()
-        {
+        private void Update() =>
             transform.rotation = Quaternion.Lerp(transform.rotation, _minRotation, _rotationSpeed * Time.deltaTime);
-        }
 
         public void Jump()
         {
