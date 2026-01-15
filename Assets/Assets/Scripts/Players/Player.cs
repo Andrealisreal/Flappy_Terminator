@@ -1,3 +1,4 @@
+using System;
 using Assets.Scripts.Interfaces;
 using Assets.Scripts.Players.Bullets;
 using Assets.Scripts.Players.Input;
@@ -13,8 +14,11 @@ namespace Assets.Scripts.Players
     public class Player : MonoBehaviour, IDamageable
     {
         [SerializeField] private PlayerAttacker _attacker;
+        
         private PlayerInput _input;
         private Jumper _jumper;
+
+        public event Action Died;
         
         private void Awake()
         {
@@ -37,10 +41,7 @@ namespace Assets.Scripts.Players
         public void InitializeSpawner(PlayerSpawnerBullet bullet) =>
             _attacker.Initialize(bullet);
 
-        public void Die()
-        {
-            Time.timeScale = 0f;
-            Time.fixedDeltaTime = 0f;
-        }
+        public void Die() =>
+            Died?.Invoke();
     }
 }
