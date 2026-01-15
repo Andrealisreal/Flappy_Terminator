@@ -39,7 +39,8 @@ namespace Assets.Scripts.Players
 
         public void Die()
         {
-            throw new System.NotImplementedException();
+            Time.timeScale = 0f;
+            Time.fixedDeltaTime = 0f;
         }
     }
 }

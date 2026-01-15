@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5443185300039173677}
   - component: {fileID: 3614204211445032807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 3093739810789741197}
   - component: {fileID: 8951290760554601998}
   - component: {fileID: 3693021397412803444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbec240ba198bb64fb1da2bc3205b005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Players.Player
+  _attacker: {fileID: 0}
 --- !u!114 &3693021397412803444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8547826849736517114}
   - component: {fileID: 737430609170237452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +260,7 @@ Transform:
   m_GameObject: {fileID: 8864755294262778072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.788, y: -0.208, z: 0}
+  m_LocalPosition: {x: 1.24, y: -0.219, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -277,5 +278,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073b53aaef18ba14d8631a8f7c0ce3ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Players.PlayerAttacker
-  Spawner: {fileID: 0}
   Delay: 0.5

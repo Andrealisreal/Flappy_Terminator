@@ -5,9 +5,11 @@ namespace Assets.Scripts.Enemies
 {
     public class Enemy : MonoBehaviour, IDamageable
     {
+        [field: SerializeField] public EnemyAttacker Attacker  { get; private set; }
+        
         public void Die()
         {
-            throw new System.NotImplementedException();
+            gameObject.SetActive(false);
         }
     }
 }

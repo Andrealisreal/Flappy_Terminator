@@ -10,8 +10,7 @@ namespace Assets.Scripts
         [SerializeField] protected float Delay = 0.5f;
     
         protected WaitForSeconds Wait;
-        
-        private Spawner<T> _spawner;
+        protected Spawner<T> Spawner;
         
         private bool _isAttacking;
     
@@ -19,14 +18,14 @@ namespace Assets.Scripts
             Wait = new WaitForSeconds(Delay);
 
         public void Initialize(Spawner<T> spawner) =>
-            _spawner = spawner;
+            Spawner = spawner;
         
-        public void Attack()
+        public virtual void Attack()
         {
             if (_isAttacking)
                 return;
             
-            var item = _spawner.Spawn(transform);
+            var item = Spawner.Spawn(transform);
             
             item.SetDirection(GetDirection());
             

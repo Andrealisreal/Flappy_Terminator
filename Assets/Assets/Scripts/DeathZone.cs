@@ -1,3 +1,4 @@
+using Assets.Scripts.Interfaces;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -6,8 +7,10 @@ namespace Assets.Scripts
     {
         private void OnTriggerEnter2D(Collider2D other)
         {
-            Debug.Log(other.name);
-            other.gameObject.SetActive(false);
+            if (other.gameObject.TryGetComponent(out IDamageable damageable))
+                damageable.Die();
+            else
+                other.gameObject.SetActive(false);
         }
     }
 }

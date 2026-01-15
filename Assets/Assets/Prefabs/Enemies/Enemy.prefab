@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7051214827527710823}
   - component: {fileID: 1276421538269588618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,8 @@ GameObject:
   - component: {fileID: 3526690418637074867}
   - component: {fileID: 8040047639832698688}
   - component: {fileID: 7165342097133127939}
-  m_Layer: 0
+  - component: {fileID: -757504668031314458}
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,6 +175,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64977ec5e12761740835d56b00b3c978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Enemies.Enemy
+  <Attacker>k__BackingField: {fileID: 1016910712226885440}
+--- !u!50 &-757504668031314458
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924939836599313127}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7400229029332308814
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7908205284200158683}
   - component: {fileID: 1016910712226885440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +229,7 @@ Transform:
   m_GameObject: {fileID: 7400229029332308814}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.19, y: 0.04, z: 0}
+  m_LocalPosition: {x: -1.41, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -218,4 +247,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26ca58c5da392aa419dcee0a46409763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Enemies.EnemyAttacker
-  Delay: 10
+  Delay: 1

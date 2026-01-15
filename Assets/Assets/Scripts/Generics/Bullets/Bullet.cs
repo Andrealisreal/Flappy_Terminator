@@ -12,5 +12,13 @@ namespace Assets.Scripts.Generics.Bullets
         
         private void Update() =>
             transform.position += transform.right * (Speed * Time.deltaTime);
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.TryGetComponent(out IDamageable damageable))
+                damageable.Die();
+            
+            gameObject.SetActive(false);
+        }
     }
 }

@@ -14,10 +14,10 @@ namespace Assets.Scripts.Enemies
         private WaitForSeconds _wait;
         private Coroutine _currentRoutine;
 
-        private void Start() =>
+        private void Awake() =>
             _wait = new WaitForSeconds(_delay);
         
-        private void OnEnable() =>
+        private void Start() =>
             _currentRoutine = StartCoroutine(SpawnRoutine());
         
         private void OnDisable() =>
@@ -28,8 +28,7 @@ namespace Assets.Scripts.Enemies
             while (enabled)
             {
                 var enemy = Spawn(_points[Random.Range(0, _points.Length)].transform);
-                var attacker = enemy.GetComponentInChildren<EnemyAttacker>();
-                attacker.Initialize(_bulletSpawner);
+                enemy.Attacker.Initialize(_bulletSpawner);
                 
                 yield return _wait;
             }

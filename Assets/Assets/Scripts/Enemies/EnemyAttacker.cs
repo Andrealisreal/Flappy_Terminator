@@ -12,14 +12,24 @@ namespace Assets.Scripts.Enemies
         private void OnDisable() =>
             StopAllCoroutines();
 
+        public override void Attack()
+        {
+            var item = Spawner.Spawn(transform);
+
+            item.SetDirection(GetDirection());
+        }
+
         protected override Vector2 GetDirection() =>
             -transform.right;
 
         protected override IEnumerator CooldownAttack()
         {
-            yield return Wait;
+            while (enabled)
+            {
+                yield return Wait;
 
-            Attack();
+                Attack();
+            }
         }
     }
 }
